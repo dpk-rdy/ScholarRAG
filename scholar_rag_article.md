@@ -1,6 +1,6 @@
 # How I Built a Personal AI Research Assistant to Stop Drowning in PDFs
 
-*A deep dive into building a Retrieval-Augmented Generation (RAG) system with Python, LangChain, and Streamlit.*
+*A deep dive into building a Retrieval-Augmented Generation (RAG) system with Python, and LangChain.*
 
 ---
 
