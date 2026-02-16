@@ -1,0 +1,11 @@
+scholarly
+langchain
+langchain-community
+langchain-openai
+chromadb
+pypdf
+requests
+streamlit
+beautifulsoup4
+tiktoken
+langchain-chroma
