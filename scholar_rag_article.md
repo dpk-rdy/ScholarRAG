@@ -11,7 +11,7 @@ You search Google Scholar, download a dozen PDFs, skim through abstracts, and st
 1.  **Scope**: They don't have access to the paper you just found five minutes ago.
 2.  **Specifics**: General knowledge is great, but research requires specific, verifiable citations from the text in front of you.
 
-This isn't a failure of the models; it's a gap in the workflow. I built **Scholar RAG** to bridge that gap—combining the reasoning power of modern LLMs with the specific, ground-truth data of academic papers.
+This isn't a failure of the models; it's a gap in the workflow. I built **Scholar RAG** to bridge that gap, combining the reasoning power of modern LLMs with the specific, ground-truth data of academic papers.
 
 Here is how I built a personal research assistant that searches, downloads, and chats with papers using Python, LangChain, and Streamlit.
 
