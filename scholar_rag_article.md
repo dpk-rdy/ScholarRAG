@@ -1,4 +1,4 @@
-# Automating Academic Research: Building a Specialized RAG System with Python
+# Scholar RAG: Context-Aware Research Assistant for Google Scholar
 
 *How I built a research assistant that connects Google Scholar to GPT-4o.*
 
