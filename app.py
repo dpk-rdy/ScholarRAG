@@ -6,9 +6,9 @@ from pdf_processor import download_pdf, process_pdf
 from rag_engine import RAGSystem
 
 # Set page config
-st.set_page_config(page_title="Scholar RAG", page_icon="📚", layout="wide")
+st.set_page_config(page_title="Scholar RAG", layout="wide")
 
-st.title("📚 Google Scholar RAG Assistant")
+st.title("Scholar RAG")
 
 # Sidebar for API Key
 with st.sidebar:
@@ -35,7 +35,7 @@ if "rag_system" not in st.session_state:
     st.session_state.rag_system = RAGSystem()
 
 # Search Section
-st.header("1. Search Papers")
+st.header("Search Papers")
 query = st.text_input("Enter research topic:")
 limit = st.slider("Number of papers to find", 1, 10, 3)
 
@@ -65,7 +65,7 @@ if st.session_state.papers:
                 st.warning("No direct PDF link available.")
 
     # Process Selection
-    if st.button("2. Analyze Selected Papers"):
+    if st.button("Analyze Selected Papers"):
         if not selected_papers:
             st.warning("Please select at least one paper with a PDF link.")
         else:
@@ -94,7 +94,7 @@ if st.session_state.papers:
             st.success(f"Successfully processed {processed_count} papers.")
 
 # Chat Interface
-st.header("3. Chat with Papers")
+st.header("Chat with Papers")
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
