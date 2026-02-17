@@ -68,7 +68,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 chunks = text_splitter.split_documents(documents)
 ```
 
-The overlap is crucial—it ensures that sentences or ideas aren't cut in half, preserving the semantic meaning across chunk boundaries.
+The overlap is crucial, it ensures that sentences or ideas aren't cut in half, preserving the semantic meaning across chunk boundaries.
 
 ## Phase 3: The Brain (Vector Store)
 To find the right chunk for a question, we use **Embeddings**. These are vector representations of text where similar meanings are mathematically close.
